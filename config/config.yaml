@@ -1,0 +1,25 @@
+app:
+  name: "AI Data Platform"
+  env: "dev"
+
+logging:
+  level: "INFO"
+  log_file: "logs/pipeline.log"
+
+source:
+  type: "excel"
+  excel:
+    file_path:"C:\\Users\\ANIRBAN MONDAL\\Downloads\\sales.xlsx"
+
+transform:
+  drop_nulls: true
+  fillna_value: 0
+  enable_anomaly_detection: true
+
+load:
+  type: "csv"
+  csv:
+    output_path: "data/processed/output.csv"
+
+streaming:
+  enabled: false

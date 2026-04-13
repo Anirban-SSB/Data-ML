@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: DATA_ML
+    runtime: python
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "streamlit run dashboard/app.py"
