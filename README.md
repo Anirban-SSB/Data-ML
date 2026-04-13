@@ -19,3 +19,5 @@ streamlit run dashboard/app.py
 ## Docker
 docker build -t DATA_ML .
 docker run DATA_ML
+
+<img width="1366" height="768" alt="ml_data" src="https://github.com/user-attachments/assets/f9332583-aebb-429e-bedc-01710c744db6" />
