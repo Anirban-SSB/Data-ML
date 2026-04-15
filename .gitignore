@@ -1,5 +1,16 @@
+# Virtual Environment
 venv/
-__pycache__/
+
+# Environment variables
 .env
-logs/
+
+# Data
+data/raw/
 data/processed/
+
+# Logs
+logs/
+
+# Python
+__pycache__/
+*.pyc
